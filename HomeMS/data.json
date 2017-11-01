@@ -1,0 +1,4 @@
+{"car": {"distance": 2, "cartemp": 0, "music": 1, "movement": 0, "expression": "angry"},
+ "epoch": 1509120120, 
+ "ownerlocation": 1, 
+ "house": {"outtemp": 30, "visitorface": "Hari", "visitoris": 0, "humidity": 70}}

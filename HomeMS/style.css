@@ -1,0 +1,45 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
+
+
+body {background-color:black;color:white;font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+div.box {
+    overflow: hidden;
+	margin-left:5%;
+	margin-right:5%;
+	padding: 10px;
+	border-radius: 10px;
+    border: 2px solid #ccc;
+    background-color: BLACK;
+}
+
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #555;
+    background-color: #f1f1f1;
+}
+
+
+/* Style the buttons inside the tab */
+
+
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+
+
+
+
+

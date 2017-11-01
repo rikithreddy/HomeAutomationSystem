@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<br><br><br><br><br><br><br>
+
+<div class="box">
+<div style="float:left;line-height:12px;width:50px;color:darkorange;font-weight:bold;"><br>AC  </div>
+<div style="float:left;line-height:12px;margin-left:200px;"><label class="switch">
+  <input id="ac"  type="checkbox" onchange="aca()">
+  <span class="slider round"></span> 
+</label></div>
+<div id="temp" style="margin-left:200px;float:left;line-height:12px;visibility:hidden;">Temprature: <button onclick="dec()" style="border-radius:25px;"> - </button><input type="number" style="width:50px;text-align:center;" id="myNumber" value="24" min="16" max="30"><button style="border-radius:25px;" onclick="inc()">+</button> </div>
+
+
+</div>
+
+					<br><br>
+
+<div class="box"><div style="float:left;line-height:12px;width:50px;color:darkorange;font-weight:bold;"><br>LIGHTS  </div>
+<div style="float:left;line-height:12px;margin-left:200px;"><label class="switch">
+  <input id="light" type="checkbox" onchange="lighta()">
+  <span class="slider round"></span> 
+</label></div>
+<div id="colour" style="float:left;line-height:12px;margin-left:200px;visibility:hidden;">
+Colour: <select style="background-color:none;">    
+    <option value="1" style="background:white" default>White</option>
+    <option value="2" style="background:red">Red</option>
+    <option value="3" style="background:blue">Blue</option>
+	<option value="4" style="background:yellow">Yellow</option>
+</select>
+
+</div>
+</div>
+
+<br><br>
+
+<div class="box"><div style="float:left;line-height:12px;width:50px;color:darkorange;font-weight:bold;"><br>DOOR </div>
+<div style="float:left;line-height:12px;margin-left:200px;"><label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span> 
+</label></div>
+</div>
+
+<br><br>
+<div class="box">
+<div style="float:left;line-height:12px;width:150px;color:darkorange;font-weight:bold;"><br>MUSIC PLAYER  </div>
+<div style="float:left;line-height:12px;margin-left:100px;"><label class="switch">
+  <input id="ac" type="checkbox" checked>
+  <span class="slider round"></span> 
+</label></div>
+<div style="float:left;line-height:5px;margin-left:200px;"><br>04- Ringa Ringa 
+<button style="background-color:black;border:none;"><i style="background-color:black;color:white;font-size:20px;" class="fa fa-step-backward"></i></button> &nbsp;&nbsp;
+<button style="background-color:black;border:none;"><i style="background-color:black;color:white;font-size:20px;" class="fa fa-play"></i></button> &nbsp;&nbsp;
+<button style="background-color:black;border:none;"><i style="background-color:black;color:white;font-size:20px;" class="fa fa-step-forward"></i></button> &nbsp;&nbsp;
+                
+</div>
+<br><br>
+<div style="clear:both;" class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="openCity(event, '^')">&#9650;</button>
+</div>
+
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="^" class="tabcontent" style="border: 1px solid #000;">
+  </div>
+
+
+<script>
+function inc() {
+    document.getElementById("myNumber").stepUp(1);
+}
+function dec() {
+    document.getElementById("myNumber").stepDown(1);
+}
+
+</script>
+  
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+     
+<script>
+function aca() {
+                var acv = document.getElementById("ac").checked;
+                if(acv==true)
+					temp.style.visibility='visible';
+				else
+					temp.style.visibility='hidden';
+					}
+
+function lighta() {
+                var lv = document.getElementById("light").checked;
+                if(lv==true)
+					colour.style.visibility='visible';
+				else
+					colour.style.visibility='hidden';
+					}
+
+					
+</script>
+	 
+</body>
+</html> 
