@@ -1,0 +1,143 @@
+Using TensorFlow backend.
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(trainable=True, filters=32, use_bias=True, bias_regularizer=None, input_dtype="float32", batch_input_shape=[None, 1, ..., activation="relu", kernel_initializer="glorot_uniform", kernel_constraint=None, activity_regularizer=None, padding="same", strides=[1, 1], name="convolution2d_10", bias_constraint=None, data_format="channels_first", kernel_regularizer=None, kernel_size=(3, 3))`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(kernel_initializer="glorot_uniform", kernel_constraint=None, activity_regularizer=None, trainable=True, padding="same", strides=[1, 1], filters=32, use_bias=True, name="convolution2d_11", bias_regularizer=None, bias_constraint=None, data_format="channels_first", kernel_regularizer=None, activation="relu", kernel_size=(3, 3))`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(kernel_initializer="glorot_uniform", kernel_constraint=None, activity_regularizer=None, trainable=True, padding="same", strides=[1, 1], filters=32, use_bias=True, name="convolution2d_12", bias_regularizer=None, bias_constraint=None, data_format="channels_first", kernel_regularizer=None, activation="relu", kernel_size=(3, 3))`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `MaxPooling2D` call to the Keras 2 API: `MaxPooling2D(name="maxpooling2d_4", trainable=True, data_format="channels_first", pool_size=[2, 2], padding="valid", strides=[2, 2])`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(kernel_initializer="glorot_uniform", kernel_constraint=None, activity_regularizer=None, trainable=True, padding="same", strides=[1, 1], filters=64, use_bias=True, name="convolution2d_13", bias_regularizer=None, bias_constraint=None, data_format="channels_first", kernel_regularizer=None, activation="relu", kernel_size=(3, 3))`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(kernel_initializer="glorot_uniform", kernel_constraint=None, activity_regularizer=None, trainable=True, padding="same", strides=[1, 1], filters=64, use_bias=True, name="convolution2d_14", bias_regularizer=None, bias_constraint=None, data_format="channels_first", kernel_regularizer=None, activation="relu", kernel_size=(3, 3))`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(kernel_initializer="glorot_uniform", kernel_constraint=None, activity_regularizer=None, trainable=True, padding="same", strides=[1, 1], filters=64, use_bias=True, name="convolution2d_15", bias_regularizer=None, bias_constraint=None, data_format="channels_first", kernel_regularizer=None, activation="relu", kernel_size=(3, 3))`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `MaxPooling2D` call to the Keras 2 API: `MaxPooling2D(name="maxpooling2d_5", trainable=True, data_format="channels_first", pool_size=[2, 2], padding="valid", strides=[2, 2])`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(kernel_initializer="glorot_uniform", kernel_constraint=None, activity_regularizer=None, trainable=True, padding="same", strides=[1, 1], filters=128, use_bias=True, name="convolution2d_16", bias_regularizer=None, bias_constraint=None, data_format="channels_first", kernel_regularizer=None, activation="relu", kernel_size=(3, 3))`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(kernel_initializer="glorot_uniform", kernel_constraint=None, activity_regularizer=None, trainable=True, padding="same", strides=[1, 1], filters=128, use_bias=True, name="convolution2d_17", bias_regularizer=None, bias_constraint=None, data_format="channels_first", kernel_regularizer=None, activation="relu", kernel_size=(3, 3))`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(kernel_initializer="glorot_uniform", kernel_constraint=None, activity_regularizer=None, trainable=True, padding="same", strides=[1, 1], filters=128, use_bias=True, name="convolution2d_18", bias_regularizer=None, bias_constraint=None, data_format="channels_first", kernel_regularizer=None, activation="relu", kernel_size=(3, 3))`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `MaxPooling2D` call to the Keras 2 API: `MaxPooling2D(name="maxpooling2d_6", trainable=True, data_format="channels_first", pool_size=[2, 2], padding="valid", strides=[2, 2])`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(name="dense_4", bias_regularizer=None, bias_constraint=None, activity_regularizer=None, trainable=True, kernel_constraint=None, kernel_regularizer=None, input_dim=None, units=256, kernel_initializer="glorot_uniform", use_bias=True, activation="relu")`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Dropout` call to the Keras 2 API: `Dropout(rate=0.3, trainable=True, name="dropout_3")`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(name="dense_5", bias_regularizer=None, bias_constraint=None, activity_regularizer=None, trainable=True, kernel_constraint=None, kernel_regularizer=None, input_dim=None, units=256, kernel_initializer="glorot_uniform", use_bias=True, activation="relu")`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Dropout` call to the Keras 2 API: `Dropout(rate=0.3, trainable=True, name="dropout_4")`
+  return cls(**config)
+/home/zeref/.local/lib/python2.7/site-packages/keras/engine/topology.py:1231: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(name="dense_6", bias_regularizer=None, bias_constraint=None, activity_regularizer=None, trainable=True, kernel_constraint=None, kernel_regularizer=None, input_dim=None, units=6, kernel_initializer="glorot_uniform", use_bias=True, activation="softmax")`
+  return cls(**config)
+2017-10-30 16:09:52.680116: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-30 16:09:52.680140: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-30 16:09:52.680144: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-30 16:09:52.680148: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-30 16:09:52.680151: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+[ 0.05931153  0.06309468  0.41767666  0.13953049  0.0112662   0.30912051]
+happy
+[ 0.08803932  0.09582473  0.12801409  0.31782934  0.00798662  0.36230591]
+neutral
+[ 0.08259496  0.07194864  0.22117651  0.40022862  0.00453114  0.21952015]
+sad
+[ 0.08675444  0.11778054  0.10805956  0.38283741  0.01692638  0.28764176]
+sad
+[ 0.07427941  0.07178272  0.27361754  0.24584402  0.0098469   0.32462934]
+neutral
+[ 0.06475469  0.09236975  0.18998024  0.35240567  0.00932884  0.29116085]
+sad
+[ 0.05890299  0.06896815  0.36147007  0.26753497  0.00670134  0.23642239]
+happy
+[ 0.08932567  0.05976158  0.34114686  0.26140618  0.00433989  0.24401978]
+happy
+[ 0.04335901  0.04885311  0.48316041  0.11282418  0.00899558  0.30280778]
+happy
+[ 0.09172     0.08351686  0.25039119  0.19994935  0.0160308   0.35839179]
+neutral
+[ 0.07767789  0.08011413  0.2100125   0.2569114   0.01095035  0.36433381]
+neutral
+[ 0.06062629  0.07858069  0.21838281  0.31787014  0.00923399  0.3153061 ]
+sad
+[ 0.07244729  0.06018327  0.21254377  0.29064238  0.00684453  0.35733876]
+neutral
+[ 0.053547    0.06344969  0.13322009  0.52661699  0.00228727  0.22087893]
+sad
+[ 0.07413578  0.08549328  0.16357701  0.37356326  0.01183152  0.29139921]
+sad
+[ 0.06301886  0.07204686  0.30996394  0.31451762  0.00807202  0.23238072]
+sad
+[ 0.07632657  0.0966098   0.20287256  0.27787054  0.0137461   0.33257446]
+neutral
+[ 0.0901957   0.08382474  0.18821701  0.33424503  0.00971636  0.29380116]
+sad
+[ 0.09064925  0.08455421  0.19964503  0.32135409  0.00910733  0.29469007]
+sad
+[ 0.09821268  0.10560558  0.19791861  0.42892     0.00752029  0.1618229 ]
+sad
+[ 0.09587417  0.08175953  0.08818062  0.52017713  0.00367163  0.210337  ]
+sad
+[ 0.08482532  0.0794105   0.07011117  0.50340122  0.00267367  0.25957817]
+sad
+[ 0.08001745  0.07471766  0.34240776  0.24496888  0.01061975  0.24726853]
+happy
+[ 0.07760248  0.05058566  0.29262587  0.40355289  0.00245236  0.1731808 ]
+sad
+[ 0.07141009  0.07897827  0.16280235  0.53213161  0.00229169  0.15238601]
+sad
+[ 0.05378715  0.04949212  0.50772822  0.26912737  0.00359117  0.11627398]
+happy
+[ 0.19964796  0.10143957  0.25247547  0.19387874  0.06042953  0.19212861]
+happy
+[ 0.0415309   0.04362477  0.47438827  0.18365256  0.00442436  0.25237912]
+happy
+[ 0.06852856  0.06979641  0.30927244  0.21138957  0.00909247  0.33192053]
+neutral
+[ 0.05635389  0.06532969  0.37891638  0.17319113  0.00968368  0.31652516]
+happy
+[ 0.07381137  0.07996131  0.29141045  0.20622021  0.01077544  0.33782125]
+neutral
+[ 0.08175279  0.05990993  0.42736861  0.20251372  0.00662552  0.22182944]
+happy
+[ 0.03677577  0.04124833  0.52010119  0.18184488  0.00308246  0.21694739]
+happy
+[ 0.06588901  0.07958164  0.11860597  0.43565825  0.00392353  0.29634172]
+sad
+[ 0.11458749  0.09477767  0.07599912  0.57920629  0.00607445  0.12935495]
+sad
+[ 0.06274112  0.07337072  0.12361322  0.42529806  0.00252613  0.31245077]
+sad
+[ 0.07047106  0.15011294  0.07499827  0.50828034  0.02016792  0.1759695 ]
+sad
+[ 0.04963168  0.07508267  0.13819025  0.22899809  0.00928327  0.49881396]
+neutral
+[ 0.06249079  0.09092933  0.15658608  0.3843534   0.00765134  0.29798913]
+sad
+[ 0.04549974  0.0820554   0.16929066  0.57678509  0.00305387  0.12331519]
+sad
+[ 0.05862458  0.07325045  0.26277062  0.23803131  0.00849739  0.35882571]
+neutral
+[ 0.08363442  0.06703676  0.22399737  0.24491677  0.01157492  0.3688398 ]
+neutral
+[ 0.05584361  0.05503333  0.21342072  0.16633517  0.0059804   0.5033868 ]
+neutral
+[ 0.06982177  0.11190788  0.10576437  0.54663593  0.00719922  0.15867084]
+sad
+[ 0.10305381  0.07396611  0.31867388  0.31253967  0.01242395  0.17934258]
+happy
+[ 0.05841167  0.07016552  0.21470873  0.23160419  0.00693727  0.41817263]
+neutral
+[ 0.05580993  0.06558512  0.28181785  0.21279746  0.00741261  0.37657699]
+neutral
+[ 0.04060343  0.0382175   0.66877145  0.13638343  0.00468069  0.11134352]
+happy
+[ 0.1003269   0.11138127  0.09642408  0.36381257  0.01128996  0.31676519]
+sad
+[ 0.12190387  0.06676611  0.40296879  0.14810742  0.01772558  0.24252817]
+happy
+[ 0.10964607  0.07833588  0.35835233  0.1470231   0.03089724  0.27574542]
+happy
+[ 0.19692807  0.13480279  0.0347
